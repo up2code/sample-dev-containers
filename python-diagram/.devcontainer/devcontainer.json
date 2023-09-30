@@ -1,0 +1,8 @@
+{
+	"name": "Python Diagram",
+	"build": {
+		"context": "..",
+		"dockerfile": "../Dockerfile"
+	},
+    "postCreateCommand": "pip install diagrams"
+}
